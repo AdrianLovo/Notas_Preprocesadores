@@ -1,0 +1,12 @@
+-var titulo = "Titulo Principal"
+-var subtitulos = ["Subtitulo 1", "Subtitulo 2", "Subtitulo 3"]
+-var usuario = "Adrian"
+-var enlaces = ["Acerca", "Noticias", "Contacto"]
+
+mixin caja(imagen, titulo, contenido) 
+	.caja 
+		.caja__imagen: img(src="images/"+imagen)
+		.caja__contenido
+			h3=titulo
+			p=contenido
+
